@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    }
+
+        header {
+            width: 100%;
+            background: linear-gradient(to bottom, #0f1d91, #00f7ff);
+            text-align:  center;
+            color: white;
+            padding: 30px 0 20px;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            justify-self: center;
+            margin-top: 20px;
+            gap: 40px;
+        }
+        nav ul li a{
+            color: rgb(255, 255, 255);
+            text-decoration: none ;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        nav ul li a:hover{
+            text-decoration:  underline;
+            font-size: 21px;
+        }
+
+        section{
+            margin: 50px;
+
+        }
+         table {
+      width: 100%;
+      border-collapse: 1px solid #ccc;
+      font-family: Arial, sans-serif;
+      cursor: pointer;
+    }
+      th {
+      background-color: #1a1a80; /* Dark blue */
+      color: white;
+      padding: 12px;
+      text-align: left;
+    }
+     td {
+      padding: 12px;
+      border-bottom: 1px solid #ccc;
+    }
+     tr:hover {
+      background-color: #f2f2f2;
+    }
+   
+    input{
+     outline: none;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+    }
+    button{
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+    }
+    button:hover{
+        font-size: 20px;
+    }
+ footer{
+        width: 100%; 
+         background-color:#1c1c71;
+         height: 35px;
+         text-align: center;
+    
+    }
+    </style>
+
+</head>
+
+<body>
+    <header>
+         <h1>My Portfolio</h1>
+        <nav>
+        <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Project</a></li>
+           <li><a href="#">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <br>
+    <section>
+    <h1> Welcome to My Portfolio</h1>
+    <p> 
+        This portfolio showcases my project and provides information about my background and     contact details.
+    </p>
+    <h1>About</h1>
+    <p>
+       Hello! I'm a web developer passionate about building dynamic and responsive website . I enjoy creating user-friendly interface and working on challenging projects
+    </p>
+    <h1>Projects</h1>
+    
+    
+  <table>
+    <thead>
+      <tr>
+        <th>Project Name</th>
+        <th>Description</th>
+        <th>Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Project Alpha</td>
+        <td>A web-based tool for tracking project progress and managing tasks.</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>Portfolio Site</td>
+        <td>A personal website showcasing my work and skills as a web developer.</td>
+        <td>2024</td>
+      </tr>
+    </tbody>
+  </table>
+
+     <h1>Contact</h1>
+
+     <label for="name">Name:</label><br><br>
+     <input type="text" name="" id="">
+
+     <br><br>
+
+     <label for="name">Email:</label><br><br>
+     <input type="text" name="" id="">
+
+     <br><br>
+
+     <label for="message">Message:</label><br><br>
+        <textarea id="message" name="message" rows="5" cols="30"  required></textarea><br><br>
+         
+        <button> Submit</button>
+    </section>
+    <footer>
+         @All Right Reserved
+    </footer>
+</body>
+
+</html>
