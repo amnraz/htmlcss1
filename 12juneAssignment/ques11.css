@@ -1,0 +1,34 @@
+
+ body {
+     font-family: Arial, sans-serif;
+     padding: 20px;
+ }
+
+ .box {
+     width: 200px;
+     color: rgb(225, 170, 170);
+ }
+
+ .box1 {
+     background-color: tomato;
+     padding: 20px;
+     border: 5px solid darkred;
+     margin: 30px;
+     box-sizing: content-box;
+ }
+
+ .box2 {
+     background-color: steelblue;
+     padding: 15px;
+     border: 10px dashed navy;
+     margin: 20px;
+     box-sizing: border-box;
+ }
+
+ .box3 {
+     background-color: mediumseagreen;
+     padding: 30px;
+     border: 8px solid green;
+     margin: 10px;
+     box-sizing: border-box;
+ }
