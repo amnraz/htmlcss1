@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sticky Header and Fixed Footer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding-bottom: 60px; 
+    }
+
+    header {
+      background-color: #76bde3;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    main {
+      padding: 30px;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #263238;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+   || -- I stay at the top while you scroll -- ||
+  </header>
+
+  <main>
+    <h2>Main Content</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac arcu at purus luctus convallis.</p>
+
+    <p>Phasellus eu neque blandit, congue enim vel, hendrerit tellus. Nulla facilisi.</p>
+    <p>Vestibulum finibus ipsum id velit tincidunt, non luctus ligula laoreet.</p>
+    <p>Integer fermentum massa non dignissim blandit. Nunc euismod fermentum leo, nec porta ligula.</p>
+    <p>Sed convallis purus eu dui fermentum dignissim. Sed id risus quis tortor posuere tristique.</p>
+    <p>Donec volutpat justo eu diam viverra, non volutpat erat bibendum.</p>
+    <p>Suspendisse potenti. Maecenas quis malesuada lectus.</p>
+    <p>Morbi faucibus mauris a ante sollicitudin, sed lobortis diam lacinia.</p>
+    <p>Curabitur eget dolor sit amet justo pretium porttitor sed sed magna.</p>
+    <p>Nam in tellus nec lectus malesuada ultricies in eget lorem.</p>
+    <p>Aliquam erat volutpat. Etiam non purus commodo, eleifend nisi et, sollicitudin risus.</p>
+  </main>
+
+  <footer>
+   || -- I'm always at the bottom of the screen -- ||
+  </footer>
+
+</body>
+</html>
