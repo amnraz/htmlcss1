@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strategic Investors</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            background: #e1d2d2;
+            padding: 2rem;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .logos {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .logos img {
+            max-height: 50px;
+        }
+
+        .heading {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #eee;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 0.8rem;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .company {
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Top Logos -->
+        <div class="logos">
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/india_q_borderless_22288e7ee3.svg"
+                alt="India Quotient" />
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/omidyar_borderless_02412f1dfd.svg"
+                alt="Unitus Ventures" />
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/capria_logo_8d99adf0dc.svg"
+                alt="Omidyar Network India" />
+        </div>
+
+        <h2 class="heading">Strategic Investors</h2>
+
+        <!-- Investor Grid -->
+        <div class="grid">
+            <!-- Repeat this block for each investor -->
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg"
+                    alt="Investor 1" />
+                <p class="name">Vijay Shekhar Sharma</p>
+                <img src="https://cdn.masaischool.com/masai-website/paytm_rect_06df45a24f.svg" alt="refresh">
+            </div>
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/Rectangle_427_637d69bb57.png" alt="Investor 2" />
+                <p class="name">Kunal Shah</p>
+                <img src="https://cdn.masaischool.com/masai-website/cred_0a47d7b4f8.png" alt="refresh">
+            </div>
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/amrish_rau_pine_labs_144e5e587c.jpg"
+                    alt="Investor 1" />
+                <p class="name">Amrish Rau</p>
+                <img src="https://cdn.masaischool.com/masai-website/pine_labs_0aa2407434.png" alt="">
+            </div>
+
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/Sampad_swain_Instamojo_f12bf6341e.jpg"
+                    alt="Investor 1" />
+                <p class="name">Sampad Swain</p>
+                <img src="https://cdn.masaischool.com/masai-website/instamojo_8763e704f7.png" alt="">
+            </div>
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/Ankush_Sachdeva_Sharechat_4e44dbbe6b.jpg"
+                    alt="Investor 1" />
+                <p class="name">Ankush Sachdeva</p>
+                <img src="https://cdn.masaischool.com/masai-website/sharechat_rect_73d95cd4e1.svg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/bhanu_pratap_singh_sharechat_11fdd7b47a.jpg"
+                    alt="Investor 1" />
+                <p class="name">Bhanu Pratap Singh</p>
+                <img src="https://cdn.masaischool.com/masai-website/sharechat_rect_73d95cd4e1.svg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/farid_ahsan_sharechat_1251f28141.png" />
+                <p class="name">Farid Ahsan</p>
+                <img src="https://cdn.masaischool.com/masai-website/sharechat_rect_73d95cd4e1.svg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/Amit_Kumar_Agarwal_Nobroker_a8a279ad91.jpg" />
+                <p class="name">Amit Kumar Agrawal</p>
+                <img src="https://cdn.masaischool.com/masai-website/nobroker_rect_28c9778c30.svg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/Akhil_Gupta_Nobroker_539cd97f6c.jpg"
+                    alt="Investor 1" />
+                <p class="name">Akhil Gupta</p>
+                <img src="https://cdn.masaischool.com/masai-website/nobroker_rect_28c9778c30.svg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/saurbh_garg_nobroker_c0c71cc431.jpeg"
+                    alt="Investor 1" />
+                <p class="name">Saurabh Garg</p>
+                <img src="https://cdn.masaischool.com/masai-website/nobroker_rect_28c9778c30.svg" alt="">
+            </div>
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/Vipin_Pathak_Care24_acd02cd173.jpg"
+                    alt="Investor 1" />
+                <p class="name">Vipin Pathak</p>
+                <img src="https://cdn.masaischool.com/masai-website/care24_1164f7a2cd.png" alt="">
+            </div>
+            <div class="card">
+                <img src="https://cdn.masaischool.com/masai-website/Ramakant_Sharma_livespace_0308e3627d.jpg"
+                    alt="Investor 1" />
+                <p class="name">Ramakant Sharma</p>
+                <img src="https://cdn.masaischool.com/masai-website/livspace_f9318b2e8d.png" alt="">
+            </div>
+
+
+
+
+            <!-- Add remaining investor cards in same format -->
+        </div>
+    </div>
+</body>
+
+</html>
