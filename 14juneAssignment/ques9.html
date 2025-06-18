@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4column & 2rows grid template</title>
+    <style>
+       .container{
+        display: grid;
+        grid-template-columns: repeat( 4,1fr);
+        grid-template-rows: repeat( 2,1fr);
+        gap: 10px;
+        padding: 20px;
+       }
+     .grid-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(34, 20, 20);
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 8px;
+     }
+     .item1{background-color: #e74c3c}
+     .item2{background-color: #1abc9c; }
+     .item3{background-color: #e67e22;}
+     .item4{background-color: #27ae60;}
+     .item5{background-color: aqua;}
+     .item6{background-color: blue;}
+     .item7{background-color: #f1c40f;}
+     .item8{background-color: rgb(121, 121, 237);}
+    </style>
+ </head>
+ <body>
+     <div class="container">
+        <div class="grid-item item1">1</div>
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>
+        <div class="grid-item item4">4</div>
+        <div class="grid-item item5">5</div>
+        <div class="grid-item item6">6</div>
+        <div class="grid-item item7">7</div>
+        <div class="grid-item item8">8</div>
+     </div>
+ </body>
+ </html>
